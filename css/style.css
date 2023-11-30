@@ -4,6 +4,15 @@ body {
     display: flex;
 }
 
+.trail {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background: rgb(255, 116, 2);
+}
+
+
 /* ? NEXT & PREV PAGE ? */
 .nextPage {
     display: inline-block;
@@ -31,26 +40,31 @@ body {
 
 
 /* ? HOME PAGE ? */
-.iconsContainer {
-    display: inline-block;
-    justify-content: left;
-    padding: 15% 2%;
-}
-
 .infoBlurbContainer {
     display: inline-block;
     justify-content: center;
     text-align: center;
-    margin: 15% auto;
+    margin: 5% auto;
+}
+
+#type {
+    color: rgb(255, 116, 2);
+    font-size: 50px;
+    text-decoration: underline;
 }
 
 .infoBlurbContainer h2 {
+    text-align: center;
+    justify-content: center;
     font-size: 50px;
     text-decoration: underline;
 }
 
 .infoBlurbContainer h3 {
     max-width: 450px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 /* ? ABOUT PAGE ? */
@@ -65,10 +79,32 @@ body {
 
 /* ? CONTACT PAGE ? */
 .contactContainer {
+    text-align: center;
     margin: 0 auto;
 }
 
+.email {
+    text-align: left;
+    font-size: 25px;
+}
 
+.linkedin {
+    text-align: left;
+    font-size: 25px;
+}
+
+.linkedin a {
+    color: lightskyblue;
+}
+
+.resume {
+    text-align: left;
+    font-size: 25px;
+}
+
+.resume a {
+    color: lightskyblue;
+}
 
 /* ? PORTFOLIO PAGE ? */
 .portfolio {
@@ -172,5 +208,3 @@ body {
     position: fixed;
     z-index: 100%;
 }
-
-/* ! ANIMATIONS ! */
